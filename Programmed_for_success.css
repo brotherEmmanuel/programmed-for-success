@@ -1,0 +1,200 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 100%;
+    margin: auto;
+    background-color: rgba(98, 98, 112, 0.103);
+}
+
+.heading_part{
+    width: 100%;
+    margin: 0 auto;
+}
+
+header{
+    background-color: rgb(3, 3, 61);
+}
+
+header::after{
+    content:'';
+    display: table;
+    clear: both;
+}
+
+.Title_image{
+    float:left;
+}
+
+img{
+    cursor: default;
+}
+
+.title{
+    font-size: 150%;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 300%;
+    transition: all ease-in-out 10000ms;
+    padding: 1%;
+        
+}
+
+.title:hover{
+    background-color: rgba(0, 139, 146, 0.363);
+
+}
+
+.title a{
+    color: rgb(116, 116, 255);
+    transition: all ease-in-out 100ms;
+    text-decoration: none;
+    
+}
+.title a:hover{
+    color:rgb(61, 139, 163);
+}
+
+.body{
+    width: 90%;
+    margin: auto;
+    align-content: center;
+    
+}
+
+.box{
+    margin: auto;
+    border: navy;
+    padding: 5%;
+    width:70%;
+    height:fit-content;
+    align-items:center;
+    transition: all ease-in-out 1ms;
+}
+
+.box:hover{
+    background-color: rgba(32, 178, 171, 0.164);
+
+}
+
+
+p1{
+    letter-spacing: 1%;
+    line-height: 150%;
+    font-size: 120%;
+    cursor: default;
+}
+
+p1 a{
+    color: rgb(0, 60, 255);
+    text-decoration: none;
+}
+
+p1 a:hover{
+    color: rgb(0, 26, 51);
+
+}
+
+.bold{
+    font-style:normal;
+    font-weight: bold;
+    color: rgb(75, 75, 2);
+}
+
+.italics{
+    font-style: italic;
+    color:rgb(0, 33, 37);
+    font-weight:500;
+    font-size: 110%;
+}
+
+nav{
+    float:right;
+    font-size: 100%;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 500%;
+}
+
+nav ul{
+    margin:0;
+    padding:0;
+    list-style:none;
+}
+
+nav li{
+    display: inline-block;
+    margin-left: 30px;
+    padding-top: 5%;
+
+    position:relative;
+}
+
+nav a{
+    color:white;
+    text-decoration: none;
+    text-transform: uppercase;
+   
+    
+}
+
+nav a:hover{
+    color:yellow;
+    
+}
+
+
+nav a::before{
+    content:'';
+    display:block;
+    height: 5%;
+    width:0%;
+    background-color:yellow;
+
+    position:absolute;
+    top:50%;
+    transition: all ease-in-out 300ms;
+}
+
+nav a:hover::before{
+   width:100%;
+    
+}
+
+.foot{
+    padding: 5%;
+    transition: all ease-in-out 500ms;
+    text-align: center;
+}
+
+.foot a{
+    cursor: default;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 150%;
+        
+}
+
+.foot a:hover{
+    color:brown;
+}
+
+.foot:hover{
+    background-color:  rgba(0, 139, 146, 0.363);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
