@@ -96,7 +96,7 @@ nav a:hover::before{
 
 .title a{
     color: rgb(116, 116, 255);
-    transition: all ease-in-out 100ms;
+    transition: color ease-in-out 100ms;
     text-decoration: none;
     
 }
@@ -205,7 +205,7 @@ p1 a[data-verse]:hover::after{
  
 .Salvation{
     padding: 5% 20%;
-    transition: all ease-in-out 200s;
+    transition: background-color ease-in-out 20s;
     
 }
 
@@ -216,7 +216,7 @@ p1 a[data-verse]:hover::after{
 .prayer_invitation{
     font-weight: bold;
     color: rgb(0, 73, 73);
-    text-align:start;
+    text-align:center;
 }
 
 .prayer{
