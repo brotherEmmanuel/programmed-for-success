@@ -1,6 +1,6 @@
 body{
     font-family: Georgia, 'Times New Roman', Times, serif;
-    width: 100%;
+    width: 99.4%;
     display: flex;
     flex-wrap: wrap;
     align-content: center;
@@ -12,12 +12,12 @@ body{
 .heading_part{
     width: 100%;
     margin: 0 auto;
-    display: block;
+    
 }
 
 header{
-    background-color: rgb(3, 3, 61);
-    display: inline;
+    background-color: rgba(233, 217, 0, 0.596);
+    display: block;
 }
 
 header::after{
@@ -205,6 +205,43 @@ p1 a[data-verse]:hover::after{
     
 }
  
+.Salvation{
+    padding: 5% 20%;
+    transition: all ease-in-out 10s;
+    color: black;
+}
+
+.Salvation:hover{
+    background-color: rgba(0, 139, 146, 0.219);
+}
+
+.prayer_invitation{
+    font-weight: bold;
+    color: rgb(0, 73, 73);
+    text-align: justify;
+}
+
+.prayer{
+    margin-top: 5%;
+    text-align: center;
+    color: rgb(0, 0, 85);  
+}
+
+.prayer::before{
+    content: '"';
+    font-weight:bolder;
+    font-size: 200%;
+    font-family:monospace;
+    color: blue;
+}
+
+.prayer::after{
+    content: '"';
+    font-weight:bolder;
+    font-size: 200%;
+    font-family:monospace;
+    color: blue;
+}
 
 
 
