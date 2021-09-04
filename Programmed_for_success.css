@@ -11,7 +11,7 @@ body{
 
 .heading_part{
     width: 100%;
-    margin: 0 auto;
+    margin: 0;
     
 }
 
@@ -28,6 +28,54 @@ header::after{
 
 .Title_image{
     float:left;
+}
+
+nav{
+    float:right;
+    font-size: 100%;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 500%;
+}
+
+nav ul{
+    margin:0;
+    padding:0;
+    list-style:none;
+}
+
+nav li{
+    display: inline-block;
+    margin-left: 30px;
+    padding-top: 5%;
+    position:relative;
+}
+
+nav a{
+    color:rgb(0, 90, 194);
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+nav a:hover{
+    color:rgb(0, 25, 109);
+}
+
+
+nav a::before{
+    content:'';
+    display:block;
+    height: 5%;
+    width:0%;
+    background-color:rgb(0, 25, 109);
+
+    position:absolute;
+    top:60%;
+    transition: all ease-in-out 300ms;
+}
+
+nav a:hover::before{
+   width:100%;
+    
 }
 
 
@@ -108,56 +156,6 @@ p1 a:hover{
     font-size: 110%;
 }
 
-nav{
-    float:right;
-    font-size: 100%;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-weight: 500%;
-}
-
-nav ul{
-    margin:0;
-    padding:0;
-    list-style:none;
-}
-
-nav li{
-    display: inline-block;
-    margin-left: 30px;
-    padding-top: 5%;
-
-    position:relative;
-}
-
-nav a{
-    color:rgb(0, 90, 194);
-    text-decoration: none;
-    text-transform: uppercase;
-   
-    
-}
-
-nav a:hover{
-    color:rgb(0, 25, 109);
-}
-
-
-nav a::before{
-    content:'';
-    display:block;
-    height: 5%;
-    width:0%;
-    background-color:rgb(0, 25, 109);
-
-    position:absolute;
-    top:60%;
-    transition: all ease-in-out 300ms;
-}
-
-nav a:hover::before{
-   width:100%;
-    
-}
 
 .foot{
     padding: 5%;
@@ -207,8 +205,8 @@ p1 a[data-verse]:hover::after{
  
 .Salvation{
     padding: 5% 20%;
-    transition: all ease-in-out 10s;
-    color: black;
+    transition: all ease-in-out 200s;
+    
 }
 
 .Salvation:hover{
@@ -218,7 +216,7 @@ p1 a[data-verse]:hover::after{
 .prayer_invitation{
     font-weight: bold;
     color: rgb(0, 73, 73);
-    text-align: justify;
+    text-align:start;
 }
 
 .prayer{
