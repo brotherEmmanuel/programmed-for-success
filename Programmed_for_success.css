@@ -17,7 +17,12 @@ body{
 
 header{
     background-color: rgba(233, 217, 0, 0.596);
+    transition: background-color ease-in-out 800ms;
     display: block;
+}
+
+header:hover{
+    background-color: rgba(255, 238, 0, 0.904);
 }
 
 header::after{
@@ -214,8 +219,8 @@ verse are put here
     color: rgb(255, 255, 255);
     padding: 3px 10px;
     position:absolute;
-    left: 1%;
-    bottom: 0;
+    left:20%;
+    bottom: 100%;
     white-space:nowrap;
     opacity:0;
     transition: all ease-out 200ms;
