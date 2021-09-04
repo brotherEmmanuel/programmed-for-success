@@ -178,32 +178,56 @@ p1 a:hover{
 }
 
 verse are put here
-p1 a[data-verse]{
+.title h1 a[data-verse]{
     position: relative;
     
 }
 
-p1 a[data-verse]::after{
+.title h1 a[data-verse]::after{
     content: attr(data-verse);
     background-color: black;
     color: rgb(255, 255, 255);
     padding: 3px 10px;
     position:absolute;
-    left: 20px;
-    bottom: -30px;
-    white-space: nowrap;
+    left: 1%;
+    bottom: 0;
+    white-space:nowrap;
     opacity:0;
     transition: all ease-out 200ms;
-    border-radius: 8px;
+    border-radius: 3px;
     font-size: small;
-    transition-delay: .5s;
+    transition-delay: .7s;
 }
 
-p1 a[data-verse]:hover::after{
+.title h1 a[data-verse]:hover::after{
     opacity: .8;
-    
 }
  
+.box a[data-verse]{
+    position: relative;
+    
+}
+
+.box a[data-verse]::after{
+    content: attr(data-verse);
+    background-color: black;
+    color: rgb(255, 255, 255);
+    padding: 3px 10px;
+    position:absolute;
+    left: 1%;
+    bottom: 0;
+    white-space:nowrap;
+    opacity:0;
+    transition: all ease-out 200ms;
+    border-radius: 3px;
+    font-size: small;
+    transition-delay: .7s;
+}
+
+.box a[data-verse]:hover::after{
+    opacity: .8;
+}
+
 .Salvation{
     padding: 5% 20%;
     transition: background-color ease-in-out 20s;
