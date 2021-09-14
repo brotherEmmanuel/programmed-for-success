@@ -1,20 +1,14 @@
 body{
     font-family: Georgia, 'Times New Roman', Times, serif;
-    overflow-x: hidden;
-    margin: 0;
-    background-color: rgba(98, 98, 112, 0.103);
-}
-
-.heading_part{
-    width: 100%;
-    margin: 0;
     
+    background-color: rgba(98, 98, 112, 0.103);
 }
 
 header{
     background-color: rgba(233, 217, 0, 0.596);
     transition: background-color ease-in-out 100ms;
     display: block;
+    z-index: 1000000;
 }
 
 header:hover{
@@ -161,7 +155,7 @@ p1 a:hover{
 }
 
 
-.foot{
+.Foot_verse{
     padding: 5%;
     transition: all ease-in-out 500ms;
     width: 100%;
@@ -272,7 +266,6 @@ verse are put here
 }
 
 
-
 .sole a[data-verse]{
     position: relative;
     
@@ -299,7 +292,6 @@ verse are put here
     opacity: 1;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
-
 
 
 
