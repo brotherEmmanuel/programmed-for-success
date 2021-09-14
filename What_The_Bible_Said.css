@@ -1,0 +1,32 @@
+body{
+    font:normal;
+    width: 80%;
+    margin: auto;
+    background-color: rgba(217, 255, 180, 0.349);
+    font-size: 20px;
+    font-family: Georgia;
+}
+
+div.img{
+    background-image:image()
+   
+}
+h1.series{
+    font-size: 60px;
+    outline-color: blue;
+    margin:2in;
+}
+div.intro{
+    background-color:rgb(213, 255, 172);
+    margin: 1in;
+
+}
+
+p1.intro{
+    font-size:30px;
+    margin-bottom: 0.2in;
+    float:left;
+}
+
+span.green{color: lawngreen;}
+span.red{color:red;}
