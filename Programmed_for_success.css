@@ -181,19 +181,19 @@ p1 a:hover{
 }
 
 verse are put here
-.title h1 a[data-verse]{
+.title a[data-verse]{
     position: relative;
     
 }
 
-.title h1 a[data-verse]::after{
+.title a[data-verse]::after{
     content: attr(data-verse);
     background-color: black;
     color: rgb(255, 255, 255);
     padding: 3px 10px;
     position:absolute;
     left: 1%;
-    bottom: 0;
+    bottom: 100%;
     white-space:nowrap;
     opacity:0;
     transition: all ease-out 200ms;
@@ -202,7 +202,7 @@ verse are put here
     transition-delay: .7s;
 }
 
-.title h1 a[data-verse]:hover::after{
+.title a[data-verse]:hover::after{
     opacity: .8;
 }
  
